@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadarço Tech Silicone - Praticidade para todos os seus passos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #10b981, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn-shine {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-shine::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(45deg);
+            transition: 0.5s;
+        }
+
+        .btn-shine:hover::after {
+            left: 120%;
+        }
+
+        .price-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            box-shadow: 0 10px 40px -10px rgba(16, 185, 129, 0.6);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Flutuante -->
+    <nav class="fixed top-4 left-0 right-0 z-50 px-4">
+        <div class="max-w-4xl mx-auto glass rounded-full py-3 px-6 flex justify-between items-center border border-white/10 shadow-2xl">
+            <div class="font-extrabold text-xl tracking-tighter italic uppercase">
+                TECH<span class="text-emerald-500">LACE</span>
+            </div>
+            <a href="#oferta" class="bg-emerald-500 text-black font-bold px-6 py-2 rounded-full text-sm hover:scale-105 transition active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.4)]">
+                QUERO O MEU
+            </a>
+        </div>
+    </nav>
+
+    <!-- Imagem Única -->
+    <section class="pt-32 pb-12 px-6 text-center">
+        <div class="relative max-w-xl mx-auto px-4">
+            <div class="absolute -inset-12 bg-emerald-500/20 blur-[140px] rounded-full"></div>
+            <div class="relative glass rounded-[3rem] p-4 overflow-hidden border border-white/10 shadow-2xl">
+                <img
+                    src="Cadarço Elástico De Silicone3.webp"
+                    alt="Cadarço elástico de silicone com alta elasticidade instalado no tênis"
+                    class="rounded-[2.5rem] w-full h-[420px] object-cover"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="pt-6 pb-12 px-6 text-center">
+        <div class="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-4 py-1 rounded-full text-[10px] font-black mb-6 tracking-widest uppercase">
+            Promoção Exclusiva 2026
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-8 leading-[1.1] tracking-tight">
+            Adeus aos nós. <br><span class="gradient-text">Foco na agilidade.</span>
+        </h1>
+
+        <div class="max-w-sm mx-auto mb-12 transform hover:scale-105 transition-all duration-500">
+            <div class="price-badge px-12 py-6 rounded-[2.5rem] flex flex-col items-center border border-white/30 relative">
+                <div class="absolute -top-3 bg-white text-emerald-600 text-[10px] font-black px-4 py-1 rounded-full shadow-lg">
+                    OFERTA DO DIA
+                </div>
+                <span class="text-gray-200 line-through text-xs mb-1">De R$ 15,99</span>
+                <div class="flex items-start">
+                    <span class="text-2xl font-bold mt-1 mr-1 text-emerald-100">R$</span>
+                    <span class="text-7xl font-black text-white leading-none tracking-tighter">5,99</span>
+                </div>
+                <span class="text-[11px] font-bold text-white/80 mt-3 uppercase tracking-widest">
+                    O Par (16 Tiras Inclusas)
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta de Mais Unidades (INTACTA) -->
+    <section id="oferta" class="px-6 py-24 bg-emerald-600 rounded-t-[4rem] text-black">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-black mb-6 tracking-tighter">
+                Equipe todos os seus pares
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white/20 p-10 rounded-[3rem]">
+                    <a href="https://tinyurl.com/yv4pah66" class="w-full bg-black text-white py-5 rounded-3xl font-bold btn-shine">
+                        GARANTIR MEU PAR
+                    </a>
+                </div>
+
+                <div class="bg-black text-white p-10 rounded-[3.5rem] md:scale-110">
+                    <a href="https://tinyurl.com/yv4pah66" class="w-full bg-emerald-500 text-black py-5 rounded-3xl font-black btn-shine">
+                        LEVAR PARA TODOS
+                    </a>
+                </div>
+
+                <div class="bg-white/20 p-10 rounded-[3rem]">
+                    <a href="https://tinyurl.com/yv4pah66" class="w-full bg-black text-white py-5 rounded-3xl font-bold btn-shine">
+                        RENOVAR ARMÁRIO
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (texto removido, botão mantido) -->
+    <footer class="bg-black py-24 px-6 text-center border-t border-white/5">
+        <a href="https://mycollection.shop/procureaquiofertas"
+           class="inline-flex items-center gap-4 bg-white text-black px-12 py-5 rounded-full font-black hover:bg-emerald-500 transition-all group">
+            EXPLORAR VITRINE
+            <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+        </a>
+
+        <div class="mt-24 pt-12 border-t border-white/5">
+            <p class="text-[10px] text-gray-700 uppercase font-black tracking-[0.5em]">
+                © 2026 TechLace • Smart Movement Lab
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
